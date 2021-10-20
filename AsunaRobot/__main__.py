@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🧚‍♀️](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
+`Hello` [🧚‍♀️](https://i.imgur.com/5oP7aUp.mp4) `My name is` *Naruto*
 `I am powerful  group management bot.
-Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
+Build by Sungjinwooarc for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
 
@@ -92,38 +92,38 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"
+            text="🤴 OWNER", url="https://telegram.dog/Sungjinwooarc"
         ),
     ],
     [
         InlineKeyboardButton(
             text="📺 Star Wolrd Entertainment",
-            url="https://telegram.dog/fire_world_entertainment",
+            url="https://t.me/manhwarecommend",
         ),
     ],
     [
-        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/AsunaLogUpdate"),
+        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/https://t.me/ifoejeje"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/https://t.me/ifoejeje"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+            text="💾 Source Code", url="https://github.com/titu3ej/AsunaRobot"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna ⚙️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [Naruto ⚙️]("https://telegra.ph/file/b1ce0a41a994db541e467.png") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249b4.png"
+ASUNA_IMG = "https://telegra.ph/file/e860fbf43fc9066ca391a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @The_Ghost_Hunter\
+ You can support the project via [PTelegram](#) or by contacting @Sungjinwooarc\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -237,7 +237,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>",url("https://telegra.ph/file/3c62fb4e95acf6eb09a3d.png").format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
